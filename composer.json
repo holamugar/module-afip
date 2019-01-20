@@ -1,0 +1,21 @@
+{
+    "name": "mugar/module-afip",
+    "description": "Modulo para incluir la lógica de AFIP dentro de los procesos de Magento2",
+    "require": {
+        "php": "~7.0|~7.1",
+        "mugar/module-invoice-type": "^1.1",
+        "mugar/module-argentinaregions": "^1.1"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mugar\\Afip\\": ""
+        }
+    }
+}
