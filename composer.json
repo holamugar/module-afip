@@ -17,5 +17,8 @@
         "psr-4": {
             "Mugar\\Afip\\": ""
         }
+    },
+    "require-dev": {
+        "magento-ecg/coding-standard": "^3.1"
     }
 }
